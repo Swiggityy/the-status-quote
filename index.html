@@ -6,7 +6,7 @@
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-TLG2LWF');</script>
+        })(window,document,\'script','dataLayer','GTM-TLG2LWF');</script>
         <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,32 +57,103 @@
     <section>
         <center>Welcome to My Site.</center>
     </section>
-    <article id="quotes"></article>
 <script>
-(function() {
-  "use strict";
+        var myArray = [
+        '“All models are wrong, but some are useful” -George Box', 
+'“Happy wife, happy life” -P. Quigley', 
+'“500,000- 1,000,000 are the optimal audience we want when creating audience groups on facebook ads” -Boomer B Baker', 
+'“When it comes to making decisions, you have three pools to pull from. You have intuition, data driven decisions, and community input. A good data scientist is able to combine all three and find a good middle ground.” -Zachary Boyer (BI Developer at Blizzard)', 
+'“Great minds discuss ideas; average minds discuss events; small minds discuss people” -Eleanor Roosevelt', 
+'“If you spend money on every department besides the the performing the poorest, you’re going to lose money as a whole. A company is only as efficient as it’s least efficient department” -P.Quigley', 
+'“So this is how gods decided to punish me. By introducing me to you.”', 
+'“When I was younger, I always felt out of place. I had convinced myself of the notion that the other kids knew something I didn’t. This carried on until high school where I figured out that it was the other way around. I had something that they all didn’t have. Some did, and we became friends, but most didn’t and were scared/avoided me because of it. Now that I’m in college, I know that thing I have does not hold me back. It actually propels me forward. That idea. That notion. That thing I had that they all lacked...was the ability to see the world differently.”', 
+'“Control is a weapon for facists” -Doom Patrol', 
+'“10,000 hours. If you do something for 10,000 hours, then and only then can you call yourself and expert in that field.” -Malcolm Gladwell', 
+'"To err is human, to forgive divine” - Alexander Pope (An Essay on Criticism)', 
+'“When you play Starcraft 2, you instantly get better at every game. It’s a fact.” -Jeremiah', 
+'“To the world you may be one person; but to one person you may be the world.” -Dr. Suess', 
+'“Any damn fool can make something complex, it takes a genius to make something simple.” -Jeff Bezos', 
+'“Ideas don’t come out fully formed. They only become clear as you work on them. You just have to get started.” -Zuckerberg', 
+'“Do not try to move the ocean, focus on what must be done and the ocean will move for you” -Vandal Savage', 
+'"To err is human, to forgive divine” - Alexander Pope (An Essay on Criticism)', 
+'“If you had a boss that talked to you the way you talk to yourself you would instantly quit” -Boomer B.', 
+'“Statistically, 70% of grocery store sales are done on the outer rim of the aisles. You know, at the edges.” -Chris Anicich', 
+'“When you have a report, make sure to follow up on it. Make sure that the data is used in some way shape or form. I usually mention it in passing when I see my boss 2-3 days after submitting the report asking if he got it ok. Idc if he got it ok, I just want him to read the damn thing! MAKE SURE YOU FOLLOW UP ON YOUR REPORTS!” -Chris Anicich', 
+'“Hard work without talent might end in failure, but talent without hard work will definitely fail” -James', 
+'"Failure is just temporary, but quitting lasts forever” -Tim Cook (Apple CEO)', 
+'“No, because each marketing strategy is different. If you’re target market is teenagers who like to party and don’t work. It wouldn’t make sense to advertise on LinkedIn. If it’s business professionals in there 50’s & 60’s twitter may not be a good place to put your money for advertising. Each of these platforms have different nuances with how you advertise as well. You can’t have the same strategy with all of them, they could follow similar themes but can’t  be identical. You also run the risk of diluting the strength of each campaign if it’s spread over too many platforms ineffectively. It’s ALWAYS better to master one thing and then move to the next. Be specific. Master that market. THEN grow. Jeff Bezos didn’t start with everything when he built Amazon. He started with books and moved on from there. Let me know if you need anything else =)” -Kai Iseda', 
+'“Your standards are your own and should not be pushed onto others.” -Me', 
+'“When you make a copy, don’t worry about how pretty it is, just focus on what you want to say.” -Lorenzo Santos', 
+'“The only difference between you and a rabid animal is that you can think. You should start acting like it.” -Me', 
+'“The world was once big and full of monsters, but now the world is small. And I am the monster.” -Doom Patrol', 
+'“What matters is not how hard you work, but what you do and how you execute.” -Jesus', 
+'“If you approach your tasks like it were your job, imagine what you could accomplish.” -Jesus', 
+'“I don’t believe in buffers. I’d rather your plan be specific enough o hit your goals dead on.” -Jesus', 
+'“Color is an under-utilized dimension when recording reports and information.” -Jesus', 
+'“Practice does not make perfect. Perfect practice makes perfect.” -Jesus', 
+'“Immediately reply to emails with a thank-you and confirmation you’ve received it and that you will review it later.” -Jesus', 
+'“Promise a lot, deliver more.” -Jesus', 
+'“Watch your thoughts, they become words. Watch your words, they become actions. Watch your actions, they become habits. Watch your habits, they become values. Watch your values, they become your destiny.” -Jesus', 
+'“The world is cruel enough without us being cruel to each other.” -Me', 
+'“Pitch deck in a nutshell: Problem, Solution, Proof, Team, Why them, and What you need -SUM', 
+'“People who are being nice to you, they mean well, but they don’t think in your best interest. Next time someone tries to make you feel better, I issue you a challenge. Give them your bill. Just something small. Then ask them to pay for it. Niceness doesn’t pay your bills. The people being nice don’t pay your bills. It’s your job to decide what mindset is important in your life.” -Dung (Alteryx)', 
+'“Tradition is the death of innovation” -Me', 
+'“Vetting is the process of taking a previously enforced marketing technique and using its effect (damage) to endorse another product” -Me', 
+'“When you point a finger at someone, you got 4 pointing back at you” -Jordan Peele', 
+'“A lot of things in business are common sense, but the problem is that sense isn’t so common nowadays.” -Quigley', 
+'“How to manage inventory correctly. Don’t do dumbass things.” -Quigley', 
+'“When making decisions at work, ask yourself. If it’s your money, would spend it?” -Quigley', 
+'“Information is a commodity. Billable hours.” -Mabel Kung', 
+'“It’s easy to talk shit on other day people. What’s hard is being so great, it gives people a reason to talk shit on you.” -Me', 
+'“Create an impossible task for yourself and break it into under 10 things you’ll need to accomplish that task. If you can connect the problem to the solution, then each of those parts can be a multi million dollar business.” -me', 
+'“It’s easier to ask for forgiveness than permission” -Jesus', 
+'“Notice the guys who get promoted and find out why.” -Quigley', 
+'“You are paid in direct proportion to the difficulty of the problems you solve” -Elon Musk', 
+'“Do not pray for an easy life, pray for the strength to endure a difficult one” -Bruce Lee', 
+'“No man needs sympathy because he has to work, because he has a burden to carry. Far and away the best prize that life offers is the chance to work hard at work worth doing.” -Theodore Roosevelt', 
+'“The most sincere way of caring for someone is to teach them how to be strong.” -Me', 
+'“Have humans come to the point where they can simulate god? I mean think about it. we play video games, write manga, make movies. Those “stories” are basically worlds of their own. So when you tie those two ideas together, you find that maybe through the creation of art and media, do we truly shatter the status of human and move into godhood. And those irl moments where you question why god is so cruel to you. Think about this. In video games we have challenges that make the game fun to play. In mangas, they always have to create conflict to keep the reader’s attention. and in movies, the conflicts are the main point of the movie. All I’m saying is if you break it down to it’s most granular form, then STORIES are the input of the universe.” -Me', 
+'“Each person is their own story” -Chris', 
+'“Realities are a fact, but attitude is a choice.” -Me', 
+'“They say that a man is made out of mud. A poor man’s made out of muscle and blood. Muscle and blood, and skin and bones, a mind that’s weak and a back that’s strong.” -Johnny Cash', 
+'“We made it past level 1” -Mitch', 
+'“‘je ne sais quoi’ literally translates to I don’t know what” -Google', 
+'“Sometimes, we’re so wrapped up in ourselves that we don’t notice when the world changes.” -Me', 
+'“People believe whatever supports their world view” -You on Netflix', 
+'“As times evolve, people\'s approach to the word changes with it due to their environment and need to survive. So an example would be how you wouldn\'t act like a French colonial from the 1800\'s, people nowadays are finding new ways to adapt to their environment instead of living like it\'s the 50\'s. I mean, you support women\'s rights right? At the time, wouldn\'t they consider that mental instability? The word "instability" itself implies that there\'s a mode where you should be. A mode that is "stable." Who is to say who are and are not stable Sid? I just like to think that we're all different and that\'s neither good nor bad...just different.” -Me', 
+'“Did you know that before we die, we ejaculate one last time? It does this in a last ditch effort to reproduce and continue your hereditary bloodline after you die so that a piece of you can live on. Now imagine killing yourself. Despite all the pain, the thoughts in your head, and the fact that it’s rational to end it all than live a life of pain...your body still wants to live. It wants to reach out to one last light of hope that a piece of you can continue on. This is what years of evolution has taught us. Despite whatever thoughts we have in our mind, our body keeps us grounded. Despite the limitations of our bodies, our mind lets us move past our boundaries. That is the equilibrium behind life and death.” -Me', 
+'“QUICK! PICK IT UP BEFORE THE CLIMATE CHANGES!” -Me', 
+'“The world isn’t bad. People aren’t selfish. Things aren’t bad. You justify the world like that because it’s the only way to rationalize the terrible things that people have done to you. You have to let go. You have to be the exception. The only way to prove your theory wrong is to be the exception. Be the person who isn’t only out for himself. Be better than how you imagine the world.” -Me', 
+'“I don’t think for myself when I’m with you” -Netflix’s Insatiable', 
+'“How much of yourself are you willing to change to achieve your goals?” -Me', 
+'“So? What’s wrong with being weird? There’s nothing wrong with being weird. I can live with being weird. What I can’t live with is spending the rest of my life wishing I were normal. I am who I am. I am proud of who I am, and I will not let anybody tell me otherwise.”', 
+'“If you ever have rat problems, just buy a lot of those hamster balls. You put them in said hamster balls, then let them roam around until they die and throw the hamster ball away. They’re cheap as hell on amazon, so it shouldn’t be a problem. Rinse and repeat. This is a method I call the “Death of Many Years.” Because the rats themselves are unable to attain any resources due to being confined within the plastic prison. As a result, they starve/die of thirst before they slowly just cease being.', 
+'“The secret of victory or defeat lies in the spirit of the men and not in their weapons.” -Rai San’yo', 
+'"If you can offer a free tier that provides a lot of value, it will naturally help your product to spread much more rapidly." -Melanie Perkins, Co-founder of Canva', 
+'"When you are building a startup, it’s difficult. Particularly, a startup that is expanding at the rate of Tinder. You have to give 100%, and you have to be committed. Solving the problem has to be personal or else you’re going to disintegrate." -Sean Rad, Co-founder of Tinder, Inc.', 
+'“To be stronger, you must not only beat your enemies. You also have to beat that weak person inside of you.” -Me', 
+'“As a well-spent day brings happy sleep, so life well used brings happy death.” -Leonardo Da Vinci', 
+'“Strength does not come from physical capacity. It comes from an indomitable will” -Mahatma Ghandi', 
+'“If you believe in yourself, other people will believe in you.” -Daniel Ally TedTalk', 
+'“You’d have to crawl through thousands of miles of darkness just to find a speck of light in this world. That makes it a scarce resource. Scarce resources are valuable. Hold onto every piece of light that you can.” -Me', 
+'“Inconveniences are just unrecognized opportunities.” -Wu assasin', 
+'“Anytime two people meet is a miracle.” -Dr. Suess', 
+'"There are three kinds of lies: lies, damned lies, and statistics." -Mark Twain', 
+'“People are the source of all my problems, but they are also my main source of my growth” -Me', 
+'“Market always moves to average” - Dr. Bhaskar (Refers to moving averages in analytics. It states that everything will move towards the average that you calculate).', 
+'“Research shows that combinations of different models are always more accurate than a single model. Use your regression outputs as inputs for a neural network to up your R^2 value.” -Dr. Bhaskar', 
+'“A person who has real dignity should be able to easily become detached from it” -Samurai Deeper Kyo', 
+'“If I sit in rice, Will it fix me?” -Lea', 
+'“There are no smart people in this room. Smart isn’t what got you here. It’s grit and hard work that got you here. You don’t end up here unless you’re up at 2am cramming before an exam or studying up until that point. And you better be damn hard working to make it through this course.” -Me', 
+'“It’s like he’s trading you two chicken nuggets for a Big Mac.” -Matt on trade raping', 
+'“Humans are weak creatures. That is why, while they wish to strive for good, at times, they must turn towards evil.” -Hercules', 
+        ]
 
-  var quotes = [
-    ["Stay Hungry. Stay Foolish.", "Steve Jobs"],
-    ["Good Artists Copy, Great Artists Steal.", "Pablo Picasso"],
-    ["Argue with idiots, and you become an idiot.", "Paul Graham"],
-    ["Be yourself; everyone else is already taken.", "Oscar Wilde"],
-    ["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"]
-  ].sort(function() {
-    return 0.5 - Math.random();
-  }),
-    quotesHTML = "";
-
-  for (var i = 0; i < quotes.length; i++) {
-    quotesHTML += "<p>&ldquo;" + quotes[i][0] + "&rdquo; &mdash; <em>" + quotes[i][1] + "</em></p>";
-  }
-  document.getElementById("quotes").innerHTML = quotesHTML;
-
-}());
-
+    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+    document.getElementById("randomItem").innerHTML = randomItem;
 </script>
 
-    <center><font size="+2"><div id="changeText"></div></font></center>
+    <center><font size="+2"><div id="randomItem"></div></font></center>
     
         
     
