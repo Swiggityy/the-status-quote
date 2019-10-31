@@ -57,7 +57,30 @@
     <section>
         <center>Welcome to My Site.</center>
     </section>
+    <article id="quotes"></article>
+<script>
+(function() {
+  "use strict";
 
+  var quotes = [
+    ["Stay Hungry. Stay Foolish.", "Steve Jobs"],
+    ["Good Artists Copy, Great Artists Steal.", "Pablo Picasso"],
+    ["Argue with idiots, and you become an idiot.", "Paul Graham"],
+    ["Be yourself; everyone else is already taken.", "Oscar Wilde"],
+    ["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"]
+  ].sort(function() {
+    return 0.5 - Math.random();
+  }),
+    quotesHTML = "";
+
+  for (var i = 0; i < quotes.length; i++) {
+    quotesHTML += "<p>&ldquo;" + quotes[i][0] + "&rdquo; &mdash; <em>" + quotes[i][1] + "</em></p>";
+  }
+  document.getElementById("quotes").innerHTML = quotesHTML;
+
+}());
+
+</script>
 
     <center><font size="+2"><div id="changeText"></div></font></center>
     
