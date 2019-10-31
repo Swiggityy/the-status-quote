@@ -148,9 +148,11 @@
 '“It’s like he’s trading you two chicken nuggets for a Big Mac.” -Matt on trade raping', 
 '“Humans are weak creatures. That is why, while they wish to strive for good, at times, they must turn towards evil.” -Hercules', 
         ]
-
+function startQuote() {
     var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-    document.getElementById("randomItem").innerHTML = randomItem;
+    document.getElementById("randomItem").innerHTML.toString() = randomItem;
+}
+
 </script>
 
     <center><font size="+2"><div id="randomItem"></div></font></center>
