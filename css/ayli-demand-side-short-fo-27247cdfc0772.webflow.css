@@ -2527,7 +2527,7 @@ a {
 
 .step-paginator-3 {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   height: 100%;
   background-color: transparent;
 }
