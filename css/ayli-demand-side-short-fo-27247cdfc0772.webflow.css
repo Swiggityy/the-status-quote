@@ -2575,6 +2575,12 @@ a {
   padding-top: 136px;
   padding-bottom: 0px;
   background-color: transparent;
+  -webkit-transform: translate(40%, 0px);
+  -ms-transform: translate(40%, 0px);
+  transform: translate(40%, 0px);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
 }
 
 html.w-mod-js *[data-ix="modal-wrapper"] {
