@@ -2078,8 +2078,11 @@ a {
 }
 
 .mask {
-  overflow: visible;
+  overflow: hidden;
   padding-bottom: 0px;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
 }
 
 .collaborate-form-step {
@@ -2575,9 +2578,9 @@ a {
   padding-top: 136px;
   padding-bottom: 0px;
   background-color: transparent;
-  -webkit-transform: translate(40%, 0px);
-  -ms-transform: translate(40%, 0px);
-  transform: translate(40%, 0px);
+  -webkit-transform: translate(45%, 0px);
+  -ms-transform: translate(45%, 0px);
+  transform: translate(45%, 0px);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
