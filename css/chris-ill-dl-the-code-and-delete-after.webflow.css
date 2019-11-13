@@ -719,6 +719,7 @@ blockquote {
 
 .step-paginator {
   position: relative;
+  overflow: hidden;
   height: 100%;
   background-color: transparent;
 }
@@ -995,7 +996,7 @@ blockquote {
 }
 
 .mask {
-  overflow: hidden;
+  overflow: visible;
   padding-bottom: 0px;
 }
 
