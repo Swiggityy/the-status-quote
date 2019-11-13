@@ -1,0 +1,11 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+images/avatar-web-thumb-130-130-80.jpeg
+images/checked-thumb-130-130-80.png
+images/filter-toggle-thumb-130-130-80.png
+images/iPhone-IG-thumb-130-130-80.png
+images/ocean-thumb-130-130-80.jpg
+images/proposal-generator-thumb-130-130-80.png
+images/toggle-switch-thumb-130-130-80.png
+images/unchecked-thumb-130-130-80.png
+images/vsmJYmxk-thumb-130-130-80.jpg
