@@ -1702,9 +1702,7 @@ a {
 }
 
 .body {
-  overflow: hidden;
-  width: 50%;
-  margin: 0 auto;
+  overflow: auto;
 }
 
 .image-51 {
@@ -1873,8 +1871,6 @@ a {
 
 .body-2 {
   overflow: hidden;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .list-item {
@@ -2003,8 +1999,6 @@ a {
   background-image: url('../images/Group-1.png');
   background-position: 0px 0px;
   background-size: cover;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .next-button {
@@ -2439,8 +2433,6 @@ a {
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .container-5 {
@@ -2586,9 +2578,9 @@ a {
   padding-top: 136px;
   padding-bottom: 0px;
   background-color: transparent;
-  -webkit-transform: translate(45%, 0px);
-  -ms-transform: translate(45%, 0px);
-  transform: translate(45%, 0px);
+  -webkit-transform: translate(40%, 0px);
+  -ms-transform: translate(40%, 0px);
+  transform: translate(40%, 0px);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -2924,8 +2916,6 @@ html.w-mod-js *[data-ix="show-content-onslide"] {
   }
   .body {
     overflow: auto;
-    width: 50%;
-    margin: 0 auto;
   }
   .image-51 {
     margin-top: 20%;
