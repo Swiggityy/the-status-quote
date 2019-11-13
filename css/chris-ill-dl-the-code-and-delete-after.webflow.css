@@ -187,6 +187,7 @@ blockquote {
 
 .form-wrapper {
   display: block;
+  overflow: hidden;
   margin: -154px auto 0px;
   padding: 0px;
   border-style: solid;
@@ -4286,6 +4287,10 @@ blockquote {
   margin-top: -88px;
   padding-top: 0px;
   text-align: center;
+}
+
+.form-2 {
+  overflow: hidden;
 }
 
 html.w-mod-js *[data-ix="show-content-onslide"] {
