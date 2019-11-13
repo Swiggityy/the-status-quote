@@ -4128,7 +4128,7 @@ blockquote {
 }
 
 .body {
-  overflow: hidden;
+  overflow: visible;
   background-image: url('../images/Background1.png');
   background-position: 50% 50%;
   background-size: contain;
