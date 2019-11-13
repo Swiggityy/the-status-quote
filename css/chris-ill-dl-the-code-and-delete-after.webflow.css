@@ -725,7 +725,7 @@ blockquote {
 }
 
 .step {
-  position: static;
+  position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -997,7 +997,6 @@ blockquote {
 }
 
 .mask {
-  position: static;
   overflow: hidden;
   padding-bottom: 0px;
 }
