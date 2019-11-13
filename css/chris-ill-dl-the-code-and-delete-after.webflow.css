@@ -556,7 +556,7 @@ blockquote {
 }
 
 .collaborate-wrap {
-  overflow: hidden;
+  overflow: visible;
   min-height: 100vh;
   padding-top: 136px;
   padding-bottom: 0px;
